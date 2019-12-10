@@ -23,9 +23,9 @@ queste domande e risposte con PHP. -->
       <h2>
         <?php echo $faq["question"];?>
       </h2>
-      <h5>
+      <h3>
         <?php echo $faq["answer"];?>
-      </h5>
+      </h3>
     <?php } ?>
   </body>
 </html>
