@@ -18,24 +18,14 @@ queste domande e risposte con PHP. -->
 
   </head>
   <body>
-
-    <!-- <h2>Question</h2>
-    <h5>Answer</h5> -->
-
-<?php
-
-  foreach ($faqs as $faq) {
-        echo $faq["question"];
-        echo "<br>";
-        echo "<br>";
-        echo $faq["answer"];
-        echo "<br>";
-        echo "<br>";
-        echo "-----------------";
-        echo "<br>";
-        echo "<br>";
-      }
-?>
-
+    <?php
+        foreach ($faqs as $faq) { ?>
+      <h2>
+        <?php echo $faq["question"];?>
+      </h2>
+      <h5>
+        <?php echo $faq["answer"];?>
+      </h5>
+    <?php } ?>
   </body>
 </html>
